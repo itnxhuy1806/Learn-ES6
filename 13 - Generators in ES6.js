@@ -23,7 +23,7 @@ function* greet1(){
    var greeter1 = greet1();
    console.log(greeter1.next().value);              // How
    console.log(greeter1.next(" the heck ").value);  //  the heck are
-   console.log(greeter1.next(" silly ol`").value);  //  silly ol'you?
+   console.log(greeter1.next([" silly ol`"]).value);  //  silly ol'you?
 
 console.log("------------")
 //    Yield* là một dạng ủy quyền thực thi. Ở đây, yield* có thể nhúng mã của một generator function ngay sau nó hoặc là ủy quyền trực tiếp cho một iterator object.
