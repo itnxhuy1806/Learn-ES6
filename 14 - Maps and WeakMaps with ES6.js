@@ -1,5 +1,5 @@
 var myMap = new Map();
-// var myMap = new WeakMap();
+// var myMap = new WeakMap(); WeakMap() tượng tự map nhưng ko có key , value, entries
 // API
 /*
 set(key,value) thêm hoặc thay đổi elements
