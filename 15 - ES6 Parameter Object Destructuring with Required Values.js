@@ -12,8 +12,8 @@ function requiredParameter(name){
 }
 try{
      ajax({
-          // url: "https://my.api.io",
-          // success:()=>{}
+          url: "https://my.api.io",
+          success:()=>{}
      });
 }
 catch (e){console.warn(e.message);}
