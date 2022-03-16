@@ -1,12 +1,12 @@
 var myMap = new Map();
-// var myMap = new WeakMap(); WeakMap() tượng tự map nhưng ko có key , value, entries
+// var myMap = new WeakMap(); WeakMap() Similar to map but without key , value , entries
 // API
 /*
-set(key,value) thêm hoặc thay đổi elements
-get(key) lấy giá trị của key tương ý
-size() return số lượng phần tử
-clear() // xóa all elements
-has() 
+set(key,value) add or edit elements
+get(key) get value of key
+size() returns the number of elements
+clear() // delete all elements
+has(key) // Returns TRUE if the key exists in the MAP, otherwise returns FALSE
 */
 myMap.set('foo', 'bar');
 myMap.set('hello', 'world');
